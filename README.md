@@ -1,5 +1,9 @@
 # TI Program Parser
-This is a simple C program that searches your calculator's ROM from 0xC0000 to a defined end region for programs inside of the ROM. Each program follows a structure that I'll provide below.
+
+> [!NOTE]  
+> This program depends on the CE C toolchain for building, so install it if you wish to do so. Instructions can be found [here](https://ce-programming.github.io/toolchain/static/getting-started.html).
+
+This is a simple C program that searches your calculator's ROM from 0xC0000 to a defined end region for programs inside of the ROM. Each program follows the structure that I'll provide below.
 
 ## Demo
 ![](https://raw.githubusercontent.com/Pdawg-bytes/ti-program-parser/main/screen_record/screen.gif)
